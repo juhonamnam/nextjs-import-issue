@@ -26,6 +26,6 @@ The error message is shown in the following:
 > ReferenceError: Cannot access 'BaseRepository' before initialization
 > This error happened while generating the page. Any console logs will be displayed in the terminal window.
 
-In this sample project, REST API request is made in a component called 'repository'. In 'repository' component, there is a parent class called `BaseRepository`, and its child classes.
+In this sample project, REST API request is made in a directory called 'repository'. In 'repository', there is a parent class called `BaseRepository`, and its child classes.
 
 For some reason, the parent class `BaseRepository` seems to be initialized AFTER its child class `CommonRepository` during the compilation, depending on the order of the two seemingly irrelevant imports.
