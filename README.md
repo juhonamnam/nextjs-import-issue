@@ -2,7 +2,7 @@
 
 A very odd import issue was found while I was working on a Next.js project.
 
-This repository is a sample project aimed to regenerate the situation when the error occured.
+This is a sample project aimed to regenerate the situation when the error occured.
 
 <br>
 
