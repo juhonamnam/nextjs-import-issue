@@ -20,9 +20,9 @@ export const HomeView = observer(() => {
           <code className={styles.code}>src/pages/index.tsx</code>
         </p>
         <p className={styles.description}>
-          Now swtich the order of the two imports as instructed in the comment,
+          Now swtich the order of the two imports wrapped with block comments,
           <br />
-          and refresh the page. You will see the unexpected error.
+          and refresh the page. You will see the unexpected compile error.
         </p>
       </main>
     </div>
