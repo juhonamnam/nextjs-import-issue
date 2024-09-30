@@ -30,8 +30,6 @@ In this sample project, REST API request is made in a directory called 'reposito
 
 For some reason, the parent class `BaseRepository` seems to be initialized AFTER its child class `CommonRepository` during the compilation, depending on the order of the two seemingly irrelevant imports.
 
----
-
 ## Update
 
 I discovered that the cause of this issue was circular dependency. Simulation of circular dependency in Node.js can be found here:
